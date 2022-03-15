@@ -1,198 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-        * {
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+      * {
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        padding: 40px 10%;
+        background: #f5f5f5;
+      }
+      .main-wrapper {
+        background: white;
+        padding: 40px;
+      }
+      section {
+        margin-bottom: 60px;
+      }
+      section.head,
+      section.youtube-embed {
+        text-align: center;
+      }
+      .button-link {
+        display: block;
+        margin: 20px 0 0 0;
+        padding: 10px 40px;
+        width: fit-content;
+        background: firebrick;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s transform ease-in-out;
+      }
+      .button-link:hover {
+        transform: scale(1.05);
+      }
+      h1 {
+        font-size: 34px;
+      }
+      h2 {
+        margin-bottom: 20px;
+      }
+      p {
+        text-align: justify;
+        margin-bottom: 10px;
+        line-height: 1.5rem;
+      }
+      img {
+        max-width: 100%;
+      }
+      .two-col {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+      }
+      .two-col div {
+        width: 50%;
+      }
+      @media only screen and (max-width: 900px) {
         body {
-            padding: 40px 10%;
-            background: #F5F5F5;
-        }
-        .main-wrapper {
-            background: white;
-            padding: 40px;
-        }
-        section {
-            margin-bottom: 60px;
-        }
-        section.head,
-        section.youtube-embed {
-            text-align: center;
-        }
-        .button-link {
-            display: block;
-            margin: 20px 0 0 0;
-            padding: 10px 40px;
-            width: fit-content;
-            background: firebrick;
-            border-radius: 5px;
-            text-decoration: none;
-            color: white;
-            transition: .3s transform ease-in-out;
-        }
-        .button-link:hover {
-            transform: scale(1.05);
-        }
-        h1 {
-            font-size: 34px;
-        }
-        h2 {
-            margin-bottom: 20px;
-        }
-        p {
-            text-align: justify;
-            margin-bottom: 10px;
-            line-height: 1.5rem;
-        }
-        img {
-            max-width: 100%;
+          padding: 0;
         }
         .two-col {
-            display: flex;
-            justify-content: space-between;
-            gap: 40px;
+          flex-direction: column;
         }
         .two-col div {
-            width: 50%;
+          width: 100%;
         }
-        @media only screen and (max-width: 900px) {
-            body {
-                padding: 0;
-            }
-            .two-col {
-                flex-direction: column;
-            }
-            .two-col div {
-                width: 100%;
-            }
-            .main-wrapper {
-                padding: 5%;
-            }
+        .main-wrapper {
+          padding: 5%;
         }
+      }
     </style>
-    <title>The benefits of regular dental checkups for kids | Buscemi Family Dentistry</title>
-</head>
-<body>
+    <title>
+      The benefits of regular dental checkups for kids | Buscemi Family
+      Dentistry
+    </title>
+  </head>
+  <body>
     <div class="main-wrapper">
-        <section style="
-        background-image: url(https://buscemifamilydentistry.com/wp-content/uploads/2021/05/Untitled-design-26.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: 0%;
-        min-height: 450px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        box-shadow: inset 0 0 0 2000px #f6f6f65d;" class="head">
-            <h1 style="color: #314d7f">The benefits of regular dental checkups for kids</h1>
-        </section>
+      <section
+        style="
+          background-image: url(https://buscemifamilydentistry.com/wp-content/uploads/2021/05/Untitled-design-26.jpg);
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: 0%;
+          min-height: 450px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          box-shadow: inset 0 0 0 2000px #f6f6f65d;
+        "
+        class="head"
+      >
+        <h1 style="color: #314d7f">
+          The benefits of regular dental checkups for kids
+        </h1>
+      </section>
 
-        <section>
-            <div class="two-col">
-                <div style="display:flex; flex-direction: column; justify-content:center">
-                    <p>Though many parents may feel that dental checkups are not a top priority for their children, the fact is that regular dental care is extremely important for kids.</p>
-                    <p>One of the most important reasons why kids need regular dental checkups is because they are at a higher risk of developing cavities than adults are. This is largely because their teeth are still growing and developing, and since their enamel is not yet fully formed, they are more susceptible to decay.</p>
-                    <p>Another reason why it is so important for kids to have regular dental checkups is that early detection of problems can often lead to better treatment options for serious conditions.</p>
-                    <a class="button-link"
-                        href="https://buscemifamilydentistry.com/the-benefits-of-regular-dental-checkups-for-kids/">Read Post</a>
-                </div>
-                <div>
-                    <img src="https://lh3.googleusercontent.com/geougc/AF1QipO5E2oamuzPDqW3eVyCNO6gNw4qMxdyw_eFQtiP=h400-no" alt="Dentistry Family Bloomfield Hills, Michigan">
-                </div>
-            </div>
-        </section>
+      <section>
+        <div class="two-col">
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            "
+          >
+            <p>
+              Though many parents may feel that dental checkups are not a top
+              priority for their children, the fact is that regular dental care
+              is extremely important for kids.
+            </p>
+            <p>
+              One of the most important reasons why kids need regular dental
+              checkups is because they are at a higher risk of developing
+              cavities than adults are. This is largely because their teeth are
+              still growing and developing, and since their enamel is not yet
+              fully formed, they are more susceptible to decay.
+            </p>
+            <p>
+              Another reason why it is so important for kids to have regular
+              dental checkups is that early detection of problems can often lead
+              to better treatment options for serious conditions.
+            </p>
+            <a
+              class="button-link"
+              href="https://buscemifamilydentistry.com/the-benefits-of-regular-dental-checkups-for-kids/"
+              >Read Post</a
+            >
+          </div>
+          <div>
+            <img
+              src="https://lh3.googleusercontent.com/geougc/AF1QipO5E2oamuzPDqW3eVyCNO6gNw4qMxdyw_eFQtiP=h400-no"
+              alt="Dentistry Family Bloomfield Hills, Michigan"
+            />
+          </div>
+        </div>
+      </section>
 
-        <section>
-            <iframe width="100%" height="600" src="https://www.youtube.com/embed/3ZOOyxffrLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
+      <section>
+        <iframe
+          width="100%"
+          height="600"
+          src="https://www.youtube.com/embed/3ZOOyxffrLw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
 
-        <section>
+      <section>
+        <div class="two-col">
+          <div>
+            <img
+              style="width: 100%"
+              src="https://lh3.googleusercontent.com/geougc/AF1QipOJtThHGS3ImPLSzteoG0HshR0oJzJkLQsOGv7j=h400-no"
+              alt="Family Dentistry Bloomfield Hills, Michigan"
+            />
+          </div>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            "
+          >
+            <h2>
+              Dental checkups help kids learn how to take care of their teeth
+              and prevent cavities
+            </h2>
+            <p>
+              It’s no secret that dental checkups are important for kids. They
+              help prevent cavities and teach kids how to take care of their
+              teeth. But did you know that dental checkups can also help kids
+              learn?
+            </p>
+            <p>
+              According to a study published in the journal Pediatric Dentistry,
+              “dental visits may be an excellent opportunity for early childhood
+              education and parental involvement.” The study found that parents
+              who attended their children’s dental appointments were more likely
+              to talk to their children about good oral hygiene habits at home.
+              And when parents talked to their children about oral hygiene, the
+              children were more likely to practice good oral hygiene habits.
+            </p>
+            <p>
+              The study also found that attendance at dental appointments was
+              associated with increased intelligence scores. Children who
+              attended more dental appointments had higher test scores, and
+              children who attended fewer appointments had lower scores.
+            </p>
+          </div>
+        </div>
+      </section>
 
-            <div class="two-col">
-                <div>
-                    <img style="width: 100%" src="https://lh3.googleusercontent.com/geougc/AF1QipOJtThHGS3ImPLSzteoG0HshR0oJzJkLQsOGv7j=h400-no" alt="Family Dentistry Bloomfield Hills, Michigan">
-                </div>
-                <div style="display:flex; flex-direction: column; justify-content: center">
-                    <h2>Dental checkups help kids learn how to take care of their teeth and prevent cavities</h2>
-                    <p>It’s no secret that dental checkups are important for kids. They help prevent cavities and teach kids how to take care of their teeth. But did you know that dental checkups can also help kids learn?</p>
-                    <p>According to a study published in the journal Pediatric Dentistry, “dental visits may be an excellent opportunity for early childhood education and parental involvement.” The study found that parents who attended their children’s dental appointments were more likely to talk to their children about good oral hygiene habits at home. And when parents talked to their children about oral hygiene, the children were more likely to practice good oral hygiene habits.</p>
-                    <p>The study also found that attendance at dental appointments was associated with increased intelligence scores. Children who attended more dental appointments had higher test scores, and children who attended fewer appointments had lower scores.</p>
-                </div>
-            </div>
+      <section>
+        <h2>
+          Kids who have regular dental checkups are less likely to need braces
+          or other corrective treatments later in life
+        </h2>
+        <p>
+          Most people know that it’s important to take care of their teeth, but
+          many don’t realize the full extent of the benefits.
+          <a
+            href="https://buscemifamilydentistry.com/brushing-your-childs-teeth-twice-a-day-is-essential-for-good-oral-health/"
+            >Brushing and flossing regularly is essential for oral health</a
+          >, but it’s not the only thing that matters. Visiting the dentist for
+          regular checkups is also crucial, and can have a major impact on your
+          long-term dental health.
+        </p>
+        <p>
+          Research shows that kids who have regular dental checkups are less
+          likely to need braces or other corrective treatments later in life.
+          This is because dentists can catch problems early on, before they have
+          a chance to cause serious damage. By catching and treating these
+          problems early, dentists can help prevent more serious issues from
+          developing later on.
+        </p>
+        <p>
+          For example, regular visits to the dentist can help prevent tooth
+          decay, which is a condition that develops when acidic bacteria in your
+          mouth feed off of food particles and saliva. These bacteria produce
+          acid as a byproduct, which slowly eats away at the protective enamel
+          on your teeth. When you’re young, it’s easy to develop tooth decay if
+          you don’t practice proper oral hygiene.
+        </p>
+        <p>
+          Of course, it’s not just kids who benefit from regular dentist visits.
+          Adults can also protect their teeth by catching problems early on. In
+          addition to catching tooth decay, a simple
+          <a
+            href="https://buscemifamilydentistry.com/dental-exam-and-teeth-cleaning/"
+            >dental exam</a
+          >
+          can help diagnose signs of other issues, such as gum disease, oral
+          cancer, or sleep apnea.
+        </p>
+        <a class="button-link" href="https://buscemifamilydentistry.com/"
+          >Visit Us</a
+        >
+      </section>
 
-        </section>
+      <section>
+        <div style="display: flex; justify-content: center">
+          <img
+            src="https://lh3.googleusercontent.com/geougc/AF1QipMkuegDPb9n3aekx2y84ZMMbieAVogy4OuYA3KG=h400-no"
+            alt="Dentistry Family Bloomfield Hills Michigan"
+          />
+        </div>
+        <br />
+        <h2 style="display: flex; justify-content: center">
+          Dental checkups can also help identify problems with a child's bite
+          early on
+        </h2>
+        <hr />
+        <br />
+        <p>
+          Most people know that it is important to go to the dentist for a
+          checkup at least once a year, but many may not be aware of all of the
+          other benefits that come with dental visits. In addition to helping
+          maintain good oral health, regular dental checkups can also help
+          identify problems with a child’s bite early on. This can help prevent
+          more serious problems down the road.
+        </p>
+        <p>
+          One common problem that can develop if left untreated is overbite. An
+          overbite occurs when the upper teeth overlap too much with the lower
+          teeth, and it can cause a variety of issues in both children and
+          adults. In children, an overbite can lead to difficulty chewing and
+          swallowing food properly, as well as speech problems. In adults, an
+          overbite can pose several risks, such as tooth wear and tear, damage
+          to the teeth and gums, TMJ issues, and jaw problems.
+        </p>
+        <p>
+          There are several ways in which children can develop an overbite. Some
+          may be born with it due to genetics, while others will develop it if
+          their upper jaw is too far forward. In some cases, a child’s teeth may
+          not come in properly and cause the face to grow longer than it should,
+          leading to an overbite.
+        </p>
+      </section>
 
-        <section>
-            <h2>Kids who have regular dental checkups are less likely to need braces or other corrective treatments later in life</h2>
-            <p>Most people know that it’s important to take care of their teeth, but many don’t realize the full extent of the benefits. <a href="https://buscemifamilydentistry.com/brushing-your-childs-teeth-twice-a-day-is-essential-for-good-oral-health/">Brushing and flossing regularly is essential for oral health</a>, but it’s not the only thing that matters. Visiting the dentist for regular checkups is also crucial, and can have a major impact on your long-term dental health.</p>
-            <p>Research shows that kids who have regular dental checkups are less likely to need braces or other corrective treatments later in life. This is because dentists can catch problems early on, before they have a chance to cause serious damage. By catching and treating these problems early, dentists can help prevent more serious issues from developing later on.</p>
-            <p>For example, regular visits to the dentist can help prevent tooth decay, which is a condition that develops when acidic bacteria in your mouth feed off of food particles and saliva. These bacteria produce acid as a byproduct, which slowly eats away at the protective enamel on your teeth. When you’re young, it’s easy to develop tooth decay if you don’t practice proper oral hygiene.</p>
-            <p>Of course, it’s not just kids who benefit from regular dentist visits. Adults can also protect their teeth by catching problems early on. In addition to catching tooth decay, a simple <a href="https://buscemifamilydentistry.com/dental-exam-and-teeth-cleaning/">dental exam</a> can help diagnose signs of other issues, such as gum disease, oral cancer, or sleep apnea.</p>
-            <a class="button-link"
-                href="https://buscemifamilydentistry.com/">Visit Us</a>
-        </section>
+      <section
+        style="
+          background-image: url(https://buscemifamilydentistry.com/wp-content/uploads/2021/05/Untitled-design-22.jpg);
+          background-size: cover;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          padding: 30px 20px 50px 20px;
+          box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.548);
+        "
+      >
+        <div style="color: white">
+          <h2 style="text-align: center">
+            Checkups give your dentist a chance to get to know your child and
+            <br />provide advice on how to keep their teeth healthily
+          </h2>
+          <hr />
+          <br />
+          <p>
+            Your dentist wants to see your child more than just twice a year!
+            They would love to see them every month if possible! The reason for
+            this is that your dentist can provide invaluable advice and guidance
+            on how to keep your child’s teeth healthy – and prevention is always
+            better than cure. By establishing a good relationship with your
+            child and providing regular checkups, your dentist can help make
+            sure that their teeth stay healthy for years to come.
+          </p>
+          <p>
+            As a parent, it’s important to encourage your child to have regular
+            dental checkups so that you can get on board with their advice from
+            the start. This will help establish the importance of good oral
+            hygiene and establish healthy teeth as a top priority for your
+            family.
+          </p>
+          <p>
+            During a dental checkup, there are several things that a dentist can
+            determine about your child’s dental health – and advise you on how
+            to keep their teeth strong. For example, a dentist can check for
+            signs of tooth decay, detect any early warning signs of gum disease,
+            and guide you on caring for your child’s first set of teeth.
+          </p>
+        </div>
+      </section>
 
-        <section>
-            
-            <div style="display:flex; justify-content: center">
-                <img src="https://lh3.googleusercontent.com/geougc/AF1QipMkuegDPb9n3aekx2y84ZMMbieAVogy4OuYA3KG=h400-no" alt="Dentistry Family Bloomfield Hills Michigan">
-            </div>
-            <br>
-            <h2 style="display:flex; justify-content: center">Dental checkups can also help identify problems with a child's bite early on</h2>
-            <hr>
-            <br>
-            <p>Most people know that it is important to go to the dentist for a checkup at least once a year, but many may not be aware of all of the other benefits that come with dental visits. In addition to helping maintain good oral health, regular dental checkups can also help identify problems with a child’s bite early on. This can help prevent more serious problems down the road.</p>
-            <p>One common problem that can develop if left untreated is overbite. An overbite occurs when the upper teeth overlap too much with the lower teeth, and it can cause a variety of issues in both children and adults. In children, an overbite can lead to difficulty chewing and swallowing food properly, as well as speech problems. In adults, an overbite can pose several risks, such as tooth wear and tear, damage to the teeth and gums, TMJ issues, and jaw problems.</p>
-            <p>There are several ways in which children can develop an overbite. Some may be born with it due to genetics, while others will develop it if their upper jaw is too far forward. In some cases, a child’s teeth may not come in properly and cause the face to grow longer than it should, leading to an overbite.</p>
-        </section>
+      <section>
+        <h2 style="color: #314d7f">
+          Most dental insurance plans cover at least one checkup per year, so
+          there's no excuse not to schedule one!
+        </h2>
+        <hr />
+        <br />
+        <p>
+          It’s important to schedule regular checkups with your dentist, even if
+          you don’t have any dental insurance. A good dentist can help you
+          maintain healthy teeth and gums, and can catch any problems early on
+          so they can be treated before they become more serious.
+        </p>
+        <p>
+          At
+          <a href="https://buscemifamilydentistry.com/about-us/"
+            >Buscemi Family Dentistry</a
+          >, we offer a wide range of services to meet your dental needs. We
+          accept most major dental insurance plans, and we also offer financing
+          options for those who need them. We want to make it as easy as
+          possible for you to get the care you need, whether you’re a new
+          patient or a returning one. If you’re due for a checkup, please give
+          us a call today and
+          <a href="https://buscemifamilydentistry.com/schedule/"
+            >schedule an appointment</a
+          >! We look forward to serving you.
+        </p>
+        <a
+          class="button-link"
+          href="https://google.com/maps/?cid=13089403868963880917"
+          >Find Us Here!</a
+        >
+      </section>
 
-        <section style="background-image: url(https://buscemifamilydentistry.com/wp-content/uploads/2021/05/Untitled-design-22.jpg); background-size: cover; background-attachment: fixed; background-repeat: no-repeat; padding: 30px 20px 50px 20px; box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.548);">
-            <div style="color:white">
-                <h2 style="text-align: center;">Checkups give your dentist a chance to get to know your child and <br>provide advice on how to keep their teeth healthily</h2>
-                <hr>
-                <br>
-                <p>Your dentist wants to see your child more than just twice a year! They would love to see them every month if possible! The reason for this is that your dentist can provide invaluable advice and guidance on how to keep your child’s teeth healthy – and prevention is always better than cure. By establishing a good relationship with your child and providing regular checkups, your dentist can help make sure that their teeth stay healthy for years to come.</p>
-                <p>As a parent, it’s important to encourage your child to have regular dental checkups so that you can get on board with their advice from the start. This will help establish the importance of good oral hygiene and establish healthy teeth as a top priority for your family.</p>
-                <p>During a dental checkup, there are several things that a dentist can determine about your child’s dental health – and advise you on how to keep their teeth strong. For example, a dentist can check for signs of tooth decay, detect any early warning signs of gum disease, and guide you on caring for your child’s first set of teeth.</p>
-            </div>
-        </section>
+      <section>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d47020.58786402561!2d-83.220301!3d42.559821!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb5a6e777db373fd5!2sBuscemi%20Family%20Dentistry!5e0!3m2!1sen!2sph!4v1647324095432!5m2!1sen!2sph"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          >Dentistry%20Family%20Bloomfield%20Hills,%20MI</iframe
+        >
+      </section>
 
-        <section>
-            <h2 style="color: #314d7f">Most dental insurance plans cover at least one checkup per year, so there's no excuse not to schedule one!</h2>
-            <hr>
-            <br>
-            <p>It’s important to schedule regular checkups with your dentist, even if you don’t have any dental insurance. A good dentist can help you maintain healthy teeth and gums, and can catch any problems early on so they can be treated before they become more serious.</p>
-            <p>At <a href="https://buscemifamilydentistry.com/about-us/">Buscemi Family Dentistry</a>, we offer a wide range of services to meet your dental needs. We accept most major dental insurance plans, and we also offer financing options for those who need them. We want to make it as easy as possible for you to get the care you need, whether you’re a new patient or a returning one. If you’re due for a checkup, please give us a call today and <a href="https://buscemifamilydentistry.com/schedule/">schedule an appointment</a>! We look forward to serving you.</p>
-            <a class="button-link"
-                href="https://google.com/maps/?cid=13089403868963880917">Find Us Here!</a>
-        </section>
+      <section>
+        <h2>Things to do in Bloomfield Hills, MI</h2>
+        <iframe
+          src="https://www.tripadvisor.com.ph/Attractions-g42001-Activities-Bloomfield_Hills_Michigan.html"
+          style="border: 0px #ffffff none"
+          name="myiFrame"
+          scrolling="no"
+          frameborder="1"
+          marginheight="0px"
+          marginwidth="0px"
+          height="400px"
+          width="100%"
+          allowfullscreen
+        ></iframe>
+      </section>
 
+      <section>
+        <h2>Bloomfield Hills, MI News</h2>
+        <iframe
+          src="https://www.usnews.com/education/best-high-schools/michigan/districts/bloomfield-hills-schools/bloomfield-hills-high-school-147439"
+          style="border: 0px #ffffff none"
+          name="myiFrame"
+          scrolling="no"
+          frameborder="1"
+          marginheight="0px"
+          marginwidth="0px"
+          height="400px"
+          width="100%"
+          allowfullscreen
+        ></iframe>
+      </section>
 
-
-
-
-        <section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d47020.58786402561!2d-83.220301!3d42.559821!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb5a6e777db373fd5!2sBuscemi%20Family%20Dentistry!5e0!3m2!1sen!2sph!4v1647324095432!5m2!1sen!2sph" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">Dentistry%20Family%20Bloomfield%20Hills,%20MI</iframe>
-        </section>
-
-        <section>
-            <h2>Things to do in Bloomfield Hills, MI</h2>
-            <iframe src="https://www.tripadvisor.com.ph/Attractions-g42001-Activities-Bloomfield_Hills_Michigan.html" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="100%" allowfullscreen></iframe>
-        </section>
-
-        <section>
-            <h2>Bloomfield Hills, MI News</h2>
-            <iframe src="https://www.usnews.com/education/best-high-schools/michigan/districts/bloomfield-hills-schools/bloomfield-hills-high-school-147439" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="100%" allowfullscreen></iframe>
-        </section>
-
+      <section>
+        <a
+          target="_bLank"
+          href="https://rank-fortress-digital-agency.github.io/buscemifamilydentistry-02-22/"
+          >https://rank-fortress-digital-agency.github.io/buscemifamilydentistry-02-22/</a
+        ><br />
+        <a
+          target="_bLank"
+          href="http://buscemifamilydentistry-02-22.s3-website-ap-southeast-1.amazonaws.com/"
+          >http://buscemifamilydentistry-02-22.s3-website-ap-southeast-1.amazonaws.com/</a
+        ><br />
+        <a target="_bLank" href="https://tender-galileo-833238.netlify.app/"
+          >https://tender-galileo-833238.netlify.app/</a
+        ><br />
+        <a
+          target="_bLank"
+          href="https://sites.google.com/view/family-dentistry-bloomfield-hi/family-dentistry-bloomfield-hills-michigan"
+          >https://sites.google.com/view/family-dentistry-bloomfield-hi/family-dentistry-bloomfield-hills-michigan</a
+        >
+      </section>
     </div>
-</body>
+  </body>
 </html>
